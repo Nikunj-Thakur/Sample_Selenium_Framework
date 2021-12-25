@@ -1,0 +1,13 @@
+21:36:19.748 [main] INFO  academy.VerifyCourseTest - Navigated to the URL
+21:36:29.997 [main] INFO  academy.VerifyCourseTest - Pop-up is closed
+21:36:30.533 [main] INFO  academy.VerifyCourseTest - Course title is successfully verified
+21:36:30.906 [main] DEBUG academy.VerifyCourseTest - Driver is closed
+21:36:35.115 [main] INFO  academy.VerifyCourseTest - Driver is initialized
+21:36:42.307 [main] INFO  academy.VerifyCourseTest - Navigated to the URL
+21:36:52.497 [main] INFO  academy.VerifyCourseTest - Pop-up is closed
+21:36:52.572 [main] INFO  academy.VerifyCourseTest - Course title is successfully verified
+21:36:52.836 [main] DEBUG academy.VerifyCourseTest - Driver is closed
+21:39:14.884 [TestNG-tests-3] INFO  academy.VerifyCourseTest - Driver is initialized
+21:39:14.884 [TestNG-tests-2] INFO  academy.VerifyCourseTest - Driver is initialized
+21:39:15.188 [TestNG-tests-1] INFO  academy.VerifyCourseTest - Driver is initialized
+21:39:52.634 [TestNG-tests-2] INFO  academy.VerifyCourseTest - Navigated to the URL

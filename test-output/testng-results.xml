@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="125085" started-at="2021-12-25T18:10:07Z" finished-at="2021-12-25T18:12:13Z">
+    <groups>
+    </groups>
+    <test name="Verify the Logins" duration-ms="125085" started-at="2021-12-25T18:10:07Z" finished-at="2021-12-25T18:12:13Z">
+      <class name="academy.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:academy.LoginTest@48e1f6c7]" name="setUp" is-config="true" duration-ms="117800" started-at="2021-12-25T18:10:07Z" finished-at="2021-12-25T18:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:academy.LoginTest@48e1f6c7]" name="login" duration-ms="4611" started-at="2021-12-25T18:12:05Z" data-provider="getData" finished-at="2021-12-25T18:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restricteduserpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:academy.LoginTest@48e1f6c7]" name="login" duration-ms="1558" started-at="2021-12-25T18:12:10Z" data-provider="getData" finished-at="2021-12-25T18:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non-restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[non-restricteduserpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non-restricteduser@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:academy.LoginTest@48e1f6c7]" name="tearDown" is-config="true" duration-ms="415" started-at="2021-12-25T18:12:12Z" finished-at="2021-12-25T18:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- academy.LoginTest -->
+    </test> <!-- Verify the Logins -->
+    <test name="Verify navigation bar" duration-ms="123010" started-at="2021-12-25T18:10:07Z" finished-at="2021-12-25T18:12:10Z">
+      <class name="academy.VerifyNavTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:academy.VerifyNavTest@16150369]" name="setUp" is-config="true" duration-ms="105929" started-at="2021-12-25T18:10:07Z" finished-at="2021-12-25T18:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navBar()[pri:0, instance:academy.VerifyNavTest@16150369]" name="navBar" duration-ms="1339" started-at="2021-12-25T18:11:54Z" finished-at="2021-12-25T18:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:academy.VerifyNavTest@16150369]" name="tearDown" is-config="true" duration-ms="11803" started-at="2021-12-25T18:11:59Z" finished-at="2021-12-25T18:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- academy.VerifyNavTest -->
+    </test> <!-- Verify navigation bar -->
+    <test name="Verify course title" duration-ms="123011" started-at="2021-12-25T18:10:07Z" finished-at="2021-12-25T18:12:10Z">
+      <class name="academy.VerifyCourseTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:academy.VerifyCourseTest@79207381]" name="setUp" is-config="true" duration-ms="105936" started-at="2021-12-25T18:10:07Z" finished-at="2021-12-25T18:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="courseTitle()[pri:0, instance:academy.VerifyCourseTest@79207381]" name="courseTitle" duration-ms="1384" started-at="2021-12-25T18:11:54Z" finished-at="2021-12-25T18:11:55Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...> but was:<...123>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...> but was:<...123>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at academy.VerifyCourseTest.courseTitle(VerifyCourseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:academy.VerifyCourseTest@79207381]" name="tearDown" is-config="true" duration-ms="11802" started-at="2021-12-25T18:11:59Z" finished-at="2021-12-25T18:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- academy.VerifyCourseTest -->
+    </test> <!-- Verify course title -->
+  </suite> <!-- Suite -->
+</testng-results>

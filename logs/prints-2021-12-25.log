@@ -1,0 +1,14 @@
+18:29:00.695 [TestNG-tests-3] INFO  academy.VerifyCourseTest - Navigated to the URL
+18:29:01.822 [TestNG-tests-2] INFO  academy.VerifyCourseTest - Navigated to the URL
+18:29:10.089 [TestNG-tests-1] INFO  academy.VerifyCourseTest - Pop-up is closed
+18:29:11.072 [TestNG-tests-3] INFO  academy.VerifyCourseTest - Pop-up is closed
+18:29:12.042 [TestNG-tests-2] INFO  academy.VerifyCourseTest - Pop-up is closed
+18:29:12.522 [TestNG-tests-3] DEBUG academy.VerifyCourseTest - Navigation bar is successfully verified
+18:29:17.224 [TestNG-tests-3] DEBUG academy.VerifyCourseTest - Driver is closed
+18:29:17.483 [TestNG-tests-2] DEBUG academy.VerifyCourseTest - Driver is closed
+18:29:18.874 [TestNG-tests-1] INFO  academy.VerifyCourseTest - Clicked on Login Button successfully
+18:29:21.288 [TestNG-tests-1] INFO  academy.VerifyCourseTest - Clicked on Login Button successfully
+18:29:22.352 [TestNG-tests-1] DEBUG academy.VerifyCourseTest - Driver is closed
+18:39:31.486 [TestNG-tests-3] INFO  academy.VerifyCourseTest - Driver is initialized
+18:39:31.487 [TestNG-tests-2] INFO  academy.VerifyCourseTest - Driver is initialized
+18:39:31.486 [TestNG-tests-1] INFO  academy.VerifyCourseTest - Driver is initialized
