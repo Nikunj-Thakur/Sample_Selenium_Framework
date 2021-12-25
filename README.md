@@ -16,11 +16,11 @@ This is a sample end to end Automation Framework using Selenium WebDriver using 
 ### JIRA API integration to update the results in JIRA after the test execution.
 ### The Framework can be integrated with Continuous Integration tool like Jenkins/Bamboo for CI/CD pipeline.
 
-# Sample Cucumber Report:-
-<img src=https://github.com/Nikunj-Thakur/Cucumber-BDD-Framework/blob/main/Cucumber_Report_1.PNG>
+# Screenshots:-
+<img src=https://github.com/Nikunj-Thakur/Sample_Selenium_Framework/blob/main/reports/courseTitle.png>
 
-# Sample Extent Report:-
-<img src=https://github.com/Nikunj-Thakur/Cucumber-BDD-Framework/blob/main/ExtentReport_Page_1.PNG>
+# Screenshots:-
+<img src=https://github.com/Nikunj-Thakur/Sample_Selenium_Framework/blob/main/reports/login.png>
 
-# Sample Extent PDF Report:-
-<img src=https://github.com/Nikunj-Thakur/Cucumber-BDD-Framework/blob/main/Extent_PDF_Report_1.PNG>
+# Screenshots:-
+<img src=https://github.com/Nikunj-Thakur/Sample_Selenium_Framework/blob/main/reports/navBar.png>
