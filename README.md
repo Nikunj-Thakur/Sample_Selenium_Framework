@@ -1,6 +1,7 @@
 # Sample_Selenium_Framework
 This is a sample end to end Automation Framework using Selenium WebDriver using Page Object Model design pattern. Data parameterization is achieved using data providers feature of TestNG. Log4j2 is used to capture the test execution logs. Extent Reports is used in conjunction with TestNG Listeners to generate excellent HTML Test Execution Reports. The Framework is thread safe and parallel execution is achieved in the Framework using TestNG. 
 
+# Steps
 ### Import the project in eclipse as Maven project
 ### To run, Right-click on TestNG.xml file and select Run as TestNG Suite.
 ### Extent HTML report (index.html) can be found under reports folder
